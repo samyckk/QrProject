@@ -10,97 +10,46 @@ const AboutUs = () => {
       <h1>About Us</h1>
       <div className="AboutUs">
         <p>
-          <h6 className="summery">
-            We are passionate and highly motivated software developers. We like
-            to challenge ourselves, learn, develop and explore existing and new
-            fields. We specialize in Full-Stack/ Backend/ Frontend development.
-            and highly knowledgeable in- React.js, Node.js,express, JavaScript,
-            MongoDB, Java.
+          <h6 className="summary">
+            Welcome to our QR-based eCommerce platform! We are passionate about
+            building innovative solutions that enhance online shopping
+            experiences. Our expertise lies in Full-Stack Development, with a
+            strong foundation in technologies such as React.js, Node.js,
+            Express, JavaScript, MongoDB, and more.
           </h6>
         </p>
 
         <p>
-          <h6 className="summery">
-            In this project, we demonstrated our programming abilities, and
-            gained additional knowledge and experience in this field. We enjoyed
-            working in a team and creating this beautiful site, which can be
-            used by a wide variety of people.
+          <h6 className="summary">
+            This project showcases our technical capabilities and problem-solving
+            skills. By integrating QR codes, we aim to simplify product access
+            and create a seamless shopping experience for users. We hope you
+            enjoy using our platform as much as we enjoyed developing it!
           </h6>
         </p>
         <ul className="teamList">
-          <h3>Meet the Team</h3>
+          <h3>Meet the Developer</h3>
 
           <li className="person">
-            <strong>Shani Bider</strong> - Full Stack Developer
+            <strong>Priyamvada</strong> - Full Stack Developer
             <br />
-            <a href="https://www.linkedin.com/in/shani-bider-0848b8177/">
-              View Shani's linkedin
+            <a href="https://www.linkedin.com/in/priyamvada-sharma-7a569026b/890" target="_blank">
+              View Priyamvada's LinkedIn
             </a>
-            <p className="role">Lead Developer</p>
-            <img
-              src="https://media.licdn.com/dms/image/D4D03AQGYZLdHyRlnYA/profile-displayphoto-shrink_200_200/0/1683093302504?e=1710979200&v=beta&t=g7Nz4XN9YISaQlxr86kcvJjF7fedSb9A7y-r5_vttJU"
-              alt="Shani Bider"
-              width="200"
-              height="200"
-            />
+            <p className="role">Lead Developer & Project Owner</p>
+            <img src="/images/priyamvada.jpg" alt="Priyamvada"  width="200" height="300" />
+
             <br />
-            <br></br>
-          </li>
-          <li className="person">
-            <strong>Shira Balali</strong> - Full Stack Developer
             <br />
-            <a href="https://www.linkedin.com/in/shira-balali-39917a1b2/">
-              View Shira's linkedin
-            </a>
-            <p className="role">Content Manager</p>
-            <img
-              src="https://media.licdn.com/dms/image/D4D35AQFItEE6fqeIDA/profile-framedphoto-shrink_200_200/0/1653036155024?e=1706018400&v=beta&t=ZnJni374I0GT-29stT5SM1A6BU8NouPXTjD7xzZoFYI"
-              alt="Shira"
-              width="200"
-              height="200"
-            />
             <br />
-            <br></br>
-          </li>
-          <li className="person">
-            <strong>Rafael Navon</strong> - Full Stack Developer
-            <br />
-            <a href="https://www.linkedin.com/in/rafael-navon/">
-              View Rafael's linkedin
-            </a>
-            <p className="role">Lead Designer</p>
-            <img
-              src="https://media.licdn.com/dms/image/C4E03AQHEw_eJ8c3JMw/profile-displayphoto-shrink_200_200/0/1616965892206?e=1710979200&v=beta&t=S7jDwsGQ_4ixAJCFq3F7XwAd_wxEqYjslpMlOwBJ8yM"
-              alt="Refael Navon"
-              width="200"
-              height="200"
-            />
-            <br />
-            <br></br>
-          </li>
-          <li className="person">
-            <strong>Or Reuven</strong> - Full Stack Developer
-            <br />
-            <a href="https://www.linkedin.com/in/or-reuven/">
-              View Or's linkedin
-            </a>
-            <p className="role">Founder and CEO</p>
-            <img
-              src="https://media.licdn.com/dms/image/C5603AQEpgoWEFh_DkQ/profile-displayphoto-shrink_200_200/0/1606381030583?e=1710979200&v=beta&t=1__LCaI8gxAxo6RK4y-xfS08xQuflSL4wWlRCwtBs6Y"
-              alt="Or Reuven"
-              width="200"
-              height="200"
-            />
-            <br />
-            <br></br>
           </li>
         </ul>
       </div>
       <h3>Contact Us</h3>
       <ul className="ContactList">
-        <li>Email: contact@anastacia.com</li>
-        <li>Phone: (555) 555-5555</li>
-        <li>Address: Tel-Aviv, Israel</li>
+        <li>Email: vadaodd145@gmail.com</li>
+        <li>Phone: +91-6350220638</li>
+        <li>Address: India</li>
       </ul>
     </div>
   );
