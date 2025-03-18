@@ -63,6 +63,9 @@ app.use ('/api/seed', seedRouter);
 app.use ('/api/products', productRouter);       
 app.use ('/api/users', userRouter);
 app.use ('/api/orders', orderRouter);
+app.get('/hey', (req, res) => {
+    res.send("Hello world");
+});
 
 const __dirname = path.resolve ();
 app.use (express.static (path.join(__dirname, '/frontend/build')));
