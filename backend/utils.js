@@ -12,7 +12,7 @@ export const generateToken = (user) => {
       password: user.password,
       isAdmin: user.isAdmin,
     },
-    process.env.JWT_SECRET,
+    "308573ea97f208933033027caaf7c3e4484a9404e939e20547a7a19a4aeef406e89ca47e9334a17efb86d544f89b6f2335d2a9b244c2d40823af422e8a6538dc",
     { expiresIn: '30d' }
   );
   // second parameter is JWT secret, which is used to encrypt the data.
@@ -26,7 +26,7 @@ const authorization = req.headers.authorization;
 // If the authorization header exists, it extracts the token from header.
     const token = authorization.slice (7, authorization.length); // Bearer XXXXXX (7 characters)
 // jwt.verify function used to verify the token's validity and decode its contents.
-  jwt.verify (token, process.env.JWT_SECRET, (err, decode) => {
+  jwt.verify (token, "308573ea97f208933033027caaf7c3e4484a9404e939e20547a7a19a4aeef406e89ca47e9334a17efb86d544f89b6f2335d2a9b244c2d40823af422e8a6538dc", (err, decode) => {
       if (err) {
         res.status(401).send({ message: 'Invalid Token' });
         // if valid, decode is the decrypted version of the token that include user information, and it is stored in req.user.

@@ -23,7 +23,7 @@ const app = express();
 // Commonly used in production environments for its scalability, reliability, and managed features.
 // Syntax of: MONGODB_URI = "mongodb+srv://<username>:<password>@<clusterName>.mongodb.net/?retryWrites=true&w=majority";
 mongoose
-  .connect(process.env.MONGODB_URI)
+  .connect("mongodb+srv://mernComm145:XFeKWY2xC5ZEKM5Z@mernecomm.a5zo4.mongodb.net/?retryWrites=true&w=majority&appName=mernEcomm")
   .then ( () => {
     console.log('connected to db');
     // Data Scraping - Read data from 'cloths.json' and inserts it into 'products' collection in MongoDB
